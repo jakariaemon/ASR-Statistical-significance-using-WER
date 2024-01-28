@@ -4,7 +4,7 @@ np.random.seed(42)
 from asr_stat_significance import StatisticalSignificance
 
 si_obj = StatisticalSignificance(
-    file_path="wer_cv.txt", 
+    file_path="wer_fleurs.txt", 
     total_batch=1000,
     use_gaussian_appr=True,
     sep='|',
